@@ -1,241 +1,40 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <title>丁庆锋 - 个人学术主页</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="丁庆锋，应用经济学博士在读，研究方向包括行为金融、公司金融、数字经济、环境经济学、家庭金融与人工智能。">
-  <link rel="stylesheet" href="style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qingfeng Ding (丁庆锋) | Ph.D. Candidate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['Merriweather', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            },
+            colors: {
+              'academic-red': '#800000', // A classic academic dark red often used in these templates
+              'academic-gray': '#333333',
+            }
+          },
+        },
+      }
+    </script>
+    <!-- Adding Google Fonts for that crisp academic look -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
 </head>
-<body>
-  <!-- 顶部导航栏 -->
-  <header class="site-header">
-    <div class="container nav-container">
-      <div class="site-title">
-        <a href="#top">DING Qingfeng (丁庆锋)</a>
-      </div>
-      <nav class="site-nav">
-        <a href="#about">Home</a>
-        <a href="#publications">Publications</a>
-        <a href="#working-papers">Working Papers</a>
-        <a href="#projects">Research Projects</a>
-        <a href="#teaching">Activities</a>
-        <a href="#cv-contact">CV & Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- 页面主体 -->
-  <main class="container main-content" id="top">
-
-    <!-- 个人简介 Home / About -->
-    <section id="about">
-      <h1 class="name-cn">丁庆锋</h1>
-      <h2 class="name-en">DING Qingfeng</h2>
-
-      <p class="position">
-        博士研究生，应用经济学（2021–2026）<br>
-        中南大学 商学院
-      </p>
-
-      <p class="meta">
-        电子邮箱：<a href="mailto:qingfeng.ding@163.com">qingfeng.ding@163.com</a> &nbsp;|&nbsp;
-        手机：195-2266-0007 &nbsp;|&nbsp;
-        ORCID：<a href="https://orcid.org/0009-0002-0703-7765" target="_blank">0009-0002-0703-7765</a><br>
-        出生日期：1993-11-23
-      </p>
-
-      <p class="advisor">
-        导师：饶育蕾 教授<br>
-        研究领域：行为金融、公司金融、数字经济、环境经济学、家庭金融、人工智能
-      </p>
-
-      <hr>
-
-      <h3>Education</h3>
-      <ul class="timeline">
-        <li>
-          <span class="time">2021 – 2026（预计）</span>
-          博士，应用经济学，中南大学<br>
-          导师：饶育蕾
-        </li>
-        <li>
-          <span class="time">2018 – 2021</span>
-          硕士，应用经济学，中南大学<br>
-          导师：饶育蕾
-        </li>
-        <li>
-          <span class="time">2012 – 2016</span>
-          本科，国际经济与贸易，安徽财经大学<br>
-          导师：张庆亮
-        </li>
-      </ul>
-    </section>
-
-    <!-- Publications -->
-    <section id="publications">
-      <hr>
-      <h2>Publications</h2>
-
-      <ol class="pub-list">
-        <li>
-          <strong>Q. Ding</strong>, Y. Rao, and Y. Dai, “Can digital financial inclusion alleviate energy poverty? Evidence from China”, 
-          <em>Energy</em>, p. 137533, 2025.（第一作者兼通讯作者）
-        </li>
-        <li>
-          张亮, 廖玉玲, 洪思颖, <strong>丁庆锋</strong>, “儒家文化对企业管理费用影响的实证研究”, 
-          <em>财务与金融</em>, 2024, 第39卷，第01期，1–13页，ISSN: 1674-3059.（通讯作者）
-        </li>
-        <li>
-          饶育蕾, <strong>丁庆锋</strong>, 陈地强, “儒家文化与公司高管-员工薪酬差距——基于权力距离的视角”, 
-          <em>厦门大学学报（哲学社会科学版）</em>, 2022, 第72卷，第02期，47–60页，ISSN: 0438-0460.（导师一作，本人二作）
-        </li>
-      </ol>
-    </section>
-
-    <!-- Working Papers -->
-    <section id="working-papers">
-      <hr>
-      <h2>Working Papers</h2>
-
-      <ol class="pub-list">
-        <li>
-          “Alcohol drinking and corporate governance”, Working paper.<br>
-          合作者：饶育蕾、王建新
-        </li>
-        <li>
-          “Anti-poverty with risk: How targeted poverty alleviation enhances poor households’ risk-taking capacity”, Working paper.<br>
-          合作者：饶育蕾、陈地强、黄民瑶
-        </li>
-        <li>
-          “Green inspires innovation: Evidence from low-carbon city pilots policy”, Working paper.<br>
-          合作者：周文达、刘胜
-        </li>
-        <li>
-          “Less is more: Information redundancy and stock price crash risk”, Working paper.<br>
-          合作者：黄民瑶、程飞阳
-        </li>
-        <li>
-          “Power of policy synergy: Double wins from Broadband China and innovative cities for urban decarbonization”, Working paper.<br>
-          合作者：周一成
-        </li>
-      </ol>
-
-      <h3>Work in Progress</h3>
-      <ul class="pub-list">
-        <li>
-          “Anti-Corruption and Consequences”<br>
-          合作者：骆东
-        </li>
-        <li>
-          “Climate Risk and Economic Consequences”<br>
-          合作者：刘胜
-        </li>
-        <li>
-          “Corruption Culture and Corporate Governance”<br>
-          合作者：戴艺菲
-        </li>
-        <li>
-          “AI and Economics Development”<br>
-          合作者：刘胜、何新奥
-        </li>
-      </ul>
-    </section>
-
-    <!-- Research Projects & Books -->
-    <section id="projects">
-      <hr>
-      <h2>Research Projects</h2>
-
-      <h3>科研项目</h3>
-      <ul class="bullet-list">
-        <li>
-          <span class="time">2025 – 2028</span>
-          国家自然科学基金面上项目：“有限关注视角下生成式人工智能对金融市场的影响研究”，参与。
-        </li>
-        <li>
-          <span class="time">2023</span>
-          中南大学研究生学术先锋沙龙项目，“主编面对面交流专题讲座”，主持。
-        </li>
-        <li>
-          <span class="time">2020 – 2024</span>
-          国家自然科学基金重点国际（地区）合作研究项目：“互联网环境下基于行为的消费信贷问题研究”，参与。
-        </li>
-        <li>
-          <span class="time">2016 – 2018</span>
-          国家自然科学基金面上项目：“饮酒、冲动控制与经理人投资决策”，参与。
-        </li>
-      </ul>
-
-      <h3>教材与专著</h3>
-      <ul class="bullet-list">
-        <li>
-          <span class="time">2024 – 2025</span>
-          机械工业出版社，《行为金融学（第三版）》，参编。
-        </li>
-        <li>
-          <span class="time">2019 – 2020</span>
-          高等教育出版社，《行为金融学导论》，参编。
-        </li>
-      </ul>
-    </section>
-
-    <!-- Conferences & Activities -->
-    <section id="teaching">
-      <hr>
-      <h2>Academic Activities</h2>
-
-      <h3>学术会议报告与参与</h3>
-      <ul class="bullet-list">
-        <li>2024，第二十一届金融系统工程与风险管理年会。</li>
-        <li>2024，首届“中南大学-山东大学”金融学科双边论坛。</li>
-        <li>2020，第24期香樟经济学 seminar（广州）。</li>
-      </ul>
-
-      <h3>Honors & Awards</h3>
-      <ul class="bullet-list">
-        <li>中南大学优秀学生干部。</li>
-        <li>中南大学优秀学生。</li>
-        <li>中南大学商学院防控疫情青年优秀志愿者。</li>
-        <li>中国证监会湖南监管局《股东来了》季军。</li>
-        <li>全国商科院校技能大赛国际贸易专业竞赛国家二等奖。</li>
-      </ul>
-
-      <h3>Skills</h3>
-      <p>
-        Stata，R，Python，文本分析，LaTeX，英语，书法，羽毛球。
-      </p>
-    </section>
-
-    <!-- CV & Contact -->
-    <section id="cv-contact">
-      <hr>
-      <h2>CV & Contact</h2>
-
-      <p>
-        如需完整简历（中文），请通过邮箱联系索取：<br>
-        <strong>Email：</strong> <a href="mailto:qingfeng.ding@163.com">qingfeng.ding@163.com</a>
-      </p>
-
-      <p>
-        您也可以通过以下方式联系我：<br>
-        手机：195-2266-0007<br>
-        ORCID：<a href="https://orcid.org/0009-0002-0703-7765" target="_blank">0009-0002-0703-7765</a>
-      </p>
-
-      <p class="last-updated">
-        Last updated: 2025-11
-      </p>
-    </section>
-
-  </main>
-
-  <!-- 页脚 -->
-  <footer class="site-footer">
-    <div class="container">
-      <p>All Rights Reserved @ DING Qingfeng</p>
-    </div>
-  </footer>
-
-</body>
+  <body class="bg-white text-academic-gray font-serif antialiased">
+    <div id="root"></div>
+  </body>
 </html>
